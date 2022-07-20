@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/filtro1.css">
+</head>
+
+<body onload="receber()">
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="home.html">INICIAL</a></li>
+            <li><a href="catalogo.html">FILMES</a></li>
+            <li><a href="#">RELATÓRIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+
+        <div class="pesquisar">
+            <div class="search">
+                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme" >
+                
+            </div>
+            <div >
+                <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscar()">
+            </div>
+            
+        </div>
+        
+    </header>
+    <main>
+
+
+        <div class="corpoTabela"></div>
+    </main>
+
+
+ <script src="js/filtros2.js"></script>
+ <script src="js/filtros1.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../img/imagemFaleConosco.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 100;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navigation li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.navigation li:hover a {
+    color: white;
+}
+
+.search {
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+
+.search input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    border-radius: 4px;
+    padding: 0 10px 0 45px;
+    backdrop-filter: blur(10px);
+}
+
+.search input::placeholder {
+    color: #fff;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding-right: 50px;
+    color: #fff;
+    border-radius: 1px solid #fff;
+}
+
+
+.titulo{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+.mensagemFeedback{
+    width: 800px;
+    margin-left: 70px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.formulario{
+    margin-top: 400px;
+    margin-left: 400px;
+}
+
+form{
+    
+    justify-content: center;
+    margin: 40px 0;
+
+}
+
+form label, legend{
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: white;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 10px;
+    font-size: 18px;
+    
+}
+
+.input-block{
+    background-color: black;
+    border: #fff solid 1px;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 4px 7px;
+    width: 50%;
+    
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.676)
+}
+
+.input-inline{
+    display: inline;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    
+}
+
+fieldset {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#enviar{
+    width: 40%;
+    padding: 10px 0;
+    background-color: rgba(223, 47, 47, 0.692);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: white 5px;
+    transition: 0.3s all;
+    cursor: pointer;
+    color: white;
+}
+
+#enviar:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.0);
+}
+
+.select select{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+
+}
+
+

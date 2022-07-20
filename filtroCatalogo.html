@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/filtroCatalogo.css">
+</head>
+
+<body onload="filtro()">
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="home.html">INICIAL</a></li>
+            <li><a href="catalogo.html">FILMES</a></li>
+            <li><a href="#">RELATÓRIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+
+        <div class="pesquisar">
+            <div class="search">
+                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme">
+
+            </div>
+            <div>
+                <input type="button" value="Pesquisar" class="btPesquisar" onclick="busca()">
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="filtro">
+            <div class="genero">
+                Gênero :
+                <select name="" id="inGenero">
+                    <option value="">Todos</option>
+                    <option value="">Ação</option>
+                    <option value="">Drama</option>
+                    <option value="">Terror</option>
+                    <option value="">Comédia</option>
+                    <option value="">Romance</option>
+                    <option value="">Aventura</option>
+                    <option value="">Ficção</option>
+                    <option value="">Comédia Romântica</option>
+                    <option value="">Animação</option>
+                    <option value="">Suspense</option>
+                </select>
+            </div>
+
+            <div class="valor">
+                Valor :
+                <input type="number" id="inNum1">
+                até
+                <input type="number" id="inNum2">
+            </div>
+
+            <div class="ano">
+                Ano :
+                <input type="number" id="inAno">
+            </div>
+
+            <div class="idade">
+                Classificação Indicativa :
+                <input type="number" id="inIdade">
+            </div>
+
+            <input type="button" value="mostrar" onclick="buscar()">
+        </div>
+
+
+        <table>
+            <tbody class="corpoTabela">
+
+            </tbody>
+        </table>
+    </main>
+
+
+    <script src="js/catalogo1.js"></script>
+    <script src="js/catalogo2.js"></script>
+
+</body>
+
+</html>

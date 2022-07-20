@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemagic</title>
+
+    <link rel="icon" type="imagem/png" href="img/icone.png" />
+
+    <link rel="stylesheet" href="style/reset.css">
+
+    <link rel="stylesheet" href="style/contato.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="home.html">INICIAL</a></li>
+            <li><a href="catalogo.html">FILMES</a></li>
+            <li><a href="#">RELATÓRIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </header>
+    <main class="faleConosco">
+        <div>
+            <h2 class="titulo">
+                FALE
+                <small>CONOSCO</small>
+            </h2>
+        </div>
+        <div class="formulario">
+            <div class="mensagemFeedback">
+                <p>Seu feedback é importante e para que possamos entrar em contado brevemente. <br>
+                    <em id="mensagem">Lembramos que não realizamos vendas diretas ao consumidor.</em>
+                </p>
+
+            </div>
+
+            <form action="">
+                <fieldset>
+                    <label for="nomeSobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomeSobrenome" class="input-block" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-block" placeholder="seu-email@dominio.com" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-block" placeholder="(xx) xxxxx-xxxx" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" class="input-block" cols="30" rows="10"></textarea required> 
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" class="input-inline" name="contato" value="email" id="radio-email">E-mail</label>
+                    
+                    <label for="radio-telefone"><input type="radio" class="input-inline" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" class="input-inline" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                </fieldset>
+    
+                <fieldset class="select">
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                    </select>
+                </fieldset>
+    
+                <label><input type="checkbox" class="input-inline" checked>Gostaria de receber nossas novidades por email?</label>
+    
+                <input type="submit" class="input-block" value="Enviar Formulário" id="enviar">
+            </form>
+        </div>
+       
+    </main>
+
+</body>
+</html>
