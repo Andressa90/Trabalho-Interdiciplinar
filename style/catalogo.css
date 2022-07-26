@@ -11,7 +11,7 @@ body {
     background: #fff;
     font-family: 'Poppins', sans-serif;
 }
-
+/* Seletores do cabeçalho --------------------------------------*/
 header {
     position: absolute;
     top: 0;
@@ -107,11 +107,13 @@ main{
     position: absolute;
     top: 50%;
     left: 10px;
-    transform: translateY(-50%);
+   
     padding-right: 50px;
     color: #fff;
     border-radius: 1px solid #fff;
 }
+
+/* Seletores do corpo --------------------------------------*/
 .banner {
     position: relative;
     width: 100%;
@@ -206,7 +208,6 @@ main{
 }
 
 .play {
-
     position: absolute;
     bottom: 50px;
     left: 100px;
@@ -236,6 +237,9 @@ main {
 }
 
 .filtro{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
     display: flex;
     margin: 0 auto;
 }
@@ -252,6 +256,13 @@ main {
 .corpoTabela{
     padding: 40px;
 }
+
+.atencao{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+/* Seletores do rodapé --------------------------------------*/
 
 footer{
     border-top: #fff solid 1px;

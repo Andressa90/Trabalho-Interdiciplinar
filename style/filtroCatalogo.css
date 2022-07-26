@@ -12,6 +12,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Seletores do cabeçalho --------------------------------------*/
+
 header {
     background-color: black;
     position: absolute;
@@ -112,6 +114,8 @@ header .logo img {
     border-radius: 1px solid #fff;
 }
 
+/* Seletores do corpo --------------------------------------*/
+
 main {
     margin-top: 100px;
     text-align: center;
@@ -120,19 +124,130 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 .filtro{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
     display: flex;
     margin: 0 auto;
 }
 
 .pTitulo {
+    padding-top: 15px;
     color: white;
 }
 
 .paragrafo{
     padding: 25px;
-    
+
 }
 
-.corpoTabela{
-    padding: 40px;
+table{
+    padding: 10px ;
+    margin: 0 auto;
+}
+
+/* Seletores do rodapé --------------------------------------*/
+
+footer{
+    
+    margin-top: 0px;
+    background-color: black;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .midias-socias{
+    margin-top: 30px;
+}
+.footer-col .midias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .midias-socias a i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-col .midias-socias a:hover{
+    color: black;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+
+
+.copyright{
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }

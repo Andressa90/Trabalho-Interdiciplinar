@@ -9,15 +9,11 @@
 
     <link rel="icon" type="imagem/png" href="img/icone.png" />
     <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/catalogo.css">
+    <link rel="stylesheet" href="style/pesquisa.css">
     <script src="https://kit.fontawesome.com/04d5b02ebf.js" crossorigin="anonymous"></script>
-
-
 </head>
 
-
-<body onload="javascript:tabela()">
-
+<body onload="receber()">
     <header>
         <a href="#" class="logo"><img src="img/logo.png"></a>
         <ul class="navigation">
@@ -29,53 +25,20 @@
 
         <div class="pesquisar">
             <div class="search">
-                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme" >
-                
+                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme">
+
             </div>
-            <div >
+            <div>
                 <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscar()">
             </div>
-            
+
         </div>
-        
+
     </header>
-
-
 
     <main>
 
-        
-
-        <div class="banner">
-            <img src="img/bg2.jpg" class="bg">
-
-            <div class="content">
-                <img src="img/name2.png" class="movieTitle">
-                <h4>
-                    <span>2020</span>
-                    <span><i>11+</i></span>
-                    <span> 2h 03min</span>
-                    <span>Aventura</span>
-                </h4>
-                <p>
-                    Enola Holmes (Millie Bobby Brown) é uma menina adolescente cujo irmão, 20 anos mais velho, é o
-                    renomado detetive Sherlock Holmes (Henry Cavill). Quando sua mãe (Helena Bonham Carter) desaparece,
-                    fugindo do confinamento da sociedade vitoriana e deixando dinheiro para trás para que Enola faça o
-                    mesmo, a menina inicia uma investigação para descobrir o paradeiro dela, ao mesmo tempo em que
-                    precisa ir contra os desejos de seu irmão, Mycroft (Sam Claflin), que quer mandá-la para um colégio
-                    interno só de meninas. A caminho de Londres, ela conhece um lorde fugitivo (Louis Partridge) e passa
-                    a desvendar quem pode estar atrás do garoto e que quer impedir que uma importante reforma política
-                    ingesa aconteça.
-                </p>
-
-                <div class="buttons">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
-                </div>
-            </div>
-            <a class="play"><img src="img/play.png">Assistir Trailer</a>
-        </div>
-
+        <hr>
         <div class="filtro">
             <div class="genero">
                 Gênero :
@@ -93,19 +56,19 @@
                     <option value="Suspense">Suspense</option>
                 </select>
             </div>
-    
+
             <div class="valor">
                 Valor :
                 <input type="number" id="inNum1">
                 até
                 <input type="number" id="inNum2">
             </div>
-    
+
             <div class="ano">
                 Ano :
                 <input type="number" id="inAno">
             </div>
-    
+
             <div class="idade">
                 Classificação Indicativa :
                 <input type="number" id="inIdade">
@@ -113,13 +76,7 @@
 
             <input type="button" value="mostrar" onclick="buscar2()">
         </div>
-        <div class="atencao">
-            <p>*Atenção : O período de locação de cada filme é limitado até 48h após o pagamento!</p>
-        </div>
 
-       
-
-        
         <table>
             <tbody class="corpoTabela">
 
@@ -128,21 +85,28 @@
     </main>
 
     <footer>
+        <hr>
         <div class="container-footer">
+
             <div class="row-footer">
 
                 <div class="footer-col">
+
                     <h4>Empresa</h4>
+
                     <ul>
                         <li><a href="home.html"> Quem somos </a></li>
                         <li><a href="home.html"> nossos serviços </a></li>
                         <li><a href=""> política de privacidade </a></li>
                         <li><a href=""> programa de afiliados</a></li>
                     </ul>
+
                 </div>
 
                 <div class="footer-col">
+
                     <h4>Obter ajuda</h4>
+
                     <ul>
                         <li><a href="contato.html">FAQ</a></li>
                         <li><a href="contato.html">Transporte</a></li>
@@ -150,21 +114,28 @@
                         <li><a href="#">Status De Pedido</a></li>
                         <li><a href="#">Opções De Pagamento</a></li>
                     </ul>
+
                 </div>
 
                 <div class="footer-col">
+
                     <h4>Loja online</h4>
+
                     <ul>
                         <li><a href="Produtos.html">Home</a></li>
                         <li><a href="Produtos.html">Filmes</a></li>
                         <li><a href="Produtos.html">Relatórios</a></li>
                         <li><a href="Acessorios.html">Contato</a></li>
                     </ul>
+
                 </div>
 
                 <div class="footer-col">
+
                     <h4>Se Inscreva!</h4>
+
                     <div class="form-sub">
+
                         <form>
                             <input type="email" placeholder="Digite o seu e-mail" required>
                             <button>Inscrever</button>
@@ -177,7 +148,7 @@
                         <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i> </a>
                         <a
                             href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D">
-                            <i class="fa-brands fa-twitter"></i> </a><br><br>
+                            <i class="fa-brands fa-twitter"></i></a><br><br>
                         <p class="copyright">&copy; 2022 Copyright Cinemagic</p>
                     </div>
 
@@ -189,9 +160,10 @@
     </footer>
 
     <script src="js/array.js"></script>
-    <script src="js/listagemGeral.js"></script>
     <script src="js/catalogo2.js"></script>
+    <script src="js/pesquisa2.js"></script>
     <script src="js/pesquisa1.js"></script>
-    
 
 </body>
+
+</html>

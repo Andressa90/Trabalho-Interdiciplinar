@@ -5,87 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Cinemagic</title>
     
     <link rel="icon" type="imagem/png" href="img/icone.png" />
-    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/relatorio.css">
     <script src="https://kit.fontawesome.com/04d5b02ebf.js" crossorigin="anonymous"></script>
+    
 </head>
 
-<body>
+<body onload="receber()">
     <header>
         <a href="#" class="logo"><img src="img/logo.png"></a>
         <ul class="navigation">
             <li><a href="home.html">INICIAL</a></li>
             <li><a href="catalogo.html">FILMES</a></li>
-            <li><a href="relatorio.html" onclick="buscar3()">RELATÓRIO</a></li>
+            <li><a href="relatorio.html">RELATÓRIO</a></li>
             <li><a href="contato.html">CONTATO</a></li>
         </ul>
-
-        <div class="pesquisar">
-            <div class="search">
-                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme" >
-                
-            </div>
-            <div >
-                <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscar()">
-            </div>
-            
-        </div>
-        
-        
     </header>
-
-    <main>
-        <div class="banner">
-            <img src="img/bg.jpg" class="bg">
-
-            <div class="content">
-                <img src="img/name.png" class="movieTitle">
-                <h4>
-                    <span>2020</span>
-                    <span><i>12+</i></span>
-                    <span>1h 55min</span>
-                    <span>Ação</span>
-                </h4>
-                <p>
-                    Mulan, uma jovem chinesa que não se encaixa na sociedade, teme que seu pai, um homem doente, seja
-                    convocado para lutar na guerra que se aproxima. A garota então se disfarça de homem e assume o posto
-                    de seu pai no exército chinês. Acompanhada por seu dragão Mushu, Mulan parte para a linha de
-                    batalha, faz amizade com os outros soldados e usa sua inteligência para ajudar a combater a invasão
-                    dos hunos enquanto luta para esconder sua verdadeira identidade.
-                </p>
-
-                <div class="buttons">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
-                </div>
-            </div>
-            <a class="play"><img src="img/play.png">Assistir Trailer</a>
-        </div>
-        <hr>
         
-        <div class="sobreNos">
-            
+    <main>
+        <hr>
+        <table>
+        <thead>
+            <td>
+                <h4>Gênero</h4>
+            </td>
+            <td>
+                <h4>Quantidade</h4>
+            </td>
+            <td>
+                <h4>Título Mais Caro</h4>
+            </td>
+        </thead>
+        <tbody class="corpoTabela">
 
-            <h1 class="tituloSobre">SOBRE NÓS :</h1>
-
-            <p class="texto">
-                O Cinemagic é uma plataforma destinada exclusivamente ao aluguel de filmes. Nosso catálogo é atualizado
-                constantemente, a fim de oferecer ao consumidor conteúdo de qualidade e que atenda a todos os públicos,
-                proporcionando filmes legendados e dublados.
-
-                Nós somos o site locador mais completo do Brasil, com os melhores valores do mercado. Além de prover a
-                todos
-                os nossos clientes atendimento excepcional a qualquer hora do dia.
-            </p>
-
-        </div>
+        </tbody>
+        </table>
 
         <hr>
-
     </main>
-
 
     <footer>
 
@@ -127,7 +88,7 @@
                     <ul>
                         <li><a href="Produtos.html">Home</a></li>
                         <li><a href="Produtos.html">Filmes</a></li>
-                        <li><a href="Produtos.html">Relatório</a></li>
+                        <li><a href="Produtos.html">Relatórios</a></li>
                         <li><a href="Acessorios.html">Contato</a></li>
                     </ul>
 
@@ -161,12 +122,11 @@
             </div>
         </div>
     </footer>
-
-    <script src="js/array.js"></script>
-    <script src="js/pesquisa1.js"></script>
-    <script src="js/relatorio2.js"></script>
+    
 
 
+        <script src="js/array.js"></script>
+        <script src="js/relatorio2.js"></script>
 </body>
 
 </html>

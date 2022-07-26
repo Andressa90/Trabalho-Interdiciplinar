@@ -1,4 +1,4 @@
-function buscar(){
+function buscar2(){
     var inGenero = document.getElementById("inGenero");
     var genery = inGenero.value;
 
@@ -14,7 +14,9 @@ function buscar(){
     var inIdade = document.getElementById("inIdade");
     var idade = Number(inIdade.value);
 
-   
+    console.log(any, genery, num1, num2, idade);
 
-    window.location = "filtroCatalogo.html?URLfiltro=" + any;
+    window.location = "filtroCatalogo.html?URLany=" + any + "&URLgenery=" + genery + "&URLnum1=" + num1 + "&URLnum2=" + num2 + "&URLidade=" + idade;
+
+    
 }
