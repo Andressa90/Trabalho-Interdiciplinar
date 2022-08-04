@@ -89,7 +89,7 @@ header .logo img {
 
 /* Seletores do corpo --------------------------------------*/
 
-.titulo{
+.titulo {
     color: white;
     font-size: 100px;
     text-align: center;
@@ -97,43 +97,44 @@ header .logo img {
 }
 
 
-.mensagemFeedback{
+.mensagemFeedback {
     width: 800px;
     margin-left: 70px;
     text-align: center;
     color: white;
-    
-    
+
+
 }
 
-.formulario{
+.formulario {
     margin-top: 400px;
     margin-left: 400px;
 }
 
-form{
-    
+form {
+
     justify-content: center;
     margin: 40px 0;
 
 }
 
-form label, legend{
+form label,
+legend {
     display: block;
     font-size: 18px;
     margin: 0 0 10px;
     color: white;
 }
 
-form input{
+form input {
     display: block;
     margin: 0 0 20px;
     padding: 10px 10px;
     font-size: 18px;
-    
+
 }
 
-.input-block{
+.input-block {
     background-color: black;
     border: #fff solid 1px;
     border-radius: 4px;
@@ -143,19 +144,19 @@ form input{
     margin-bottom: 15px;
     padding: 4px 7px;
     width: 50%;
-    
+
 }
 
-input::placeholder{
+input::placeholder {
     color: rgba(255, 255, 255, 0.676)
 }
 
-.input-inline{
+.input-inline {
     display: inline;
     margin-bottom: 10px;
     margin-right: 10px;
     font-size: 18px;
-    
+
 }
 
 fieldset {
@@ -165,7 +166,7 @@ fieldset {
     color: white;
 }
 
-#enviar{
+#enviar {
     width: 40%;
     padding: 10px 0;
     background-color: rgba(223, 47, 47, 0.692);
@@ -179,13 +180,13 @@ fieldset {
     color: white;
 }
 
-#enviar:hover{
+#enviar:hover {
     background-color: white;
     color: black;
     transform: scale(1.0);
 }
 
-.select select{
+.select select {
     background-color: black;
     color: #fff;
     padding: 5px;
@@ -194,27 +195,30 @@ fieldset {
 
 /* Seletores do rodapé --------------------------------------*/
 
-footer{
-    
+footer {
+
     margin-top: 0px;
     background-color: black;
     padding: 50px 0;
 }
-.container-footer{
+
+.container-footer {
     max-width: 1400px;
     padding: 0 4%;
     margin: auto;
 }
-.row-footer{
+
+.row-footer {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-col{
+.footer-col {
     width: 25%;
     padding: 0 15px;
 }
-.footer-col h4{
+
+.footer-col h4 {
     font-size: 22px;
     color: white;
     margin-bottom: 20px;
@@ -222,13 +226,16 @@ footer{
     position: relative;
     text-transform: uppercase;
 }
-.footer-col ul{
+
+.footer-col ul {
     list-style: none;
 }
-.footer-col ul li{
+
+.footer-col ul li {
     margin: 10px 0;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: white;
@@ -237,14 +244,17 @@ footer{
     display: block;
     transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
     color: #cecdcd;
     padding-left: 10px;
 }
-.footer-col .midias-socias{
+
+.footer-col .midias-socias {
     margin-top: 30px;
 }
-.footer-col .midias-socias a{
+
+.footer-col .midias-socias a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -257,16 +267,18 @@ footer{
     border: 1px solid white;
     transition: all 0.5s ease;
 }
-.footer-col .midias-socias a i{
+
+.footer-col .midias-socias a i {
     color: #fff;
     font-size: 20px;
 }
 
-.footer-col .midias-socias a:hover{
+.footer-col .midias-socias a:hover {
     color: black;
     background-color: white;
 }
-.footer-col .form-sub input{
+
+.footer-col .form-sub input {
     width: 100%;
     padding: 10px;
     font-size: 15px;
@@ -275,13 +287,15 @@ footer{
     color: white;
     background-color: black;
 }
-.footer-col .form-sub input::placeholder{
+
+.footer-col .form-sub input::placeholder {
     color: white;
 }
-.footer-col .form-sub button{
+
+.footer-col .form-sub button {
     width: 100%;
     margin-top: 10px;
-    padding: 10px; 
+    padding: 10px;
     font-size: 17px;
     outline: none;
     border: none;
@@ -289,14 +303,11 @@ footer{
     color: black;
     border-radius: 3px;
     font-weight: bold;
-    background-color: white;        
+    background-color: white;
 }
 
 
-.copyright{
+.copyright {
     font-family: 'Poppins', sans-serif;
     color: white;
 }
-
-
-

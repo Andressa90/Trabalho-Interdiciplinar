@@ -58,14 +58,14 @@ header .logo img {
     height: 40px;
 }
 
-.pesquisar{
+.pesquisar {
     display: flex;
 }
 
-.btPesquisar{
+.btPesquisar {
     background-color: black;
     border-radius: 4px;
-    padding: 8px; 
+    padding: 8px;
     color: #fff;
 }
 
@@ -77,7 +77,7 @@ header .logo img {
     height: 100%;
     color: #fff;
     background: transparent;
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     outline: none;
     border-radius: 4px;
     padding: 0 10px 0 45px;
@@ -107,55 +107,58 @@ main {
     margin-top: 101.3px;
 }
 
-table{
+table {
 
     margin: 0 auto;
     height: 400px;
     width: 600px;
 }
 
-td{
+td {
     padding-bottom: 20px;
     padding-top: 20px;
-    
+
 }
 
-thead{
+thead {
     font-size: 20px;
     font-weight: bold;
 }
 
-tr{
+tr {
     border-bottom: solid #fff 1px;
 }
 
-hr{
+hr {
     margin-top: 30px;
 }
 
 /* Seletores do rodapé --------------------------------------*/
 
-footer{
-    
+footer {
+
     margin-top: 0px;
     background-color: black;
     padding: 50px 0;
 }
-.container-footer{
+
+.container-footer {
     max-width: 1400px;
     padding: 0 4%;
     margin: auto;
 }
-.row-footer{
+
+.row-footer {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-col{
+.footer-col {
     width: 25%;
     padding: 0 15px;
 }
-.footer-col h4{
+
+.footer-col h4 {
     font-size: 22px;
     color: white;
     margin-bottom: 20px;
@@ -163,13 +166,16 @@ footer{
     position: relative;
     text-transform: uppercase;
 }
-.footer-col ul{
+
+.footer-col ul {
     list-style: none;
 }
-.footer-col ul li{
+
+.footer-col ul li {
     margin: 10px 0;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: white;
@@ -178,14 +184,17 @@ footer{
     display: block;
     transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
     color: #cecdcd;
     padding-left: 10px;
 }
-.footer-col .midias-socias{
+
+.footer-col .midias-socias {
     margin-top: 30px;
 }
-.footer-col .midias-socias a{
+
+.footer-col .midias-socias a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -198,16 +207,18 @@ footer{
     border: 1px solid white;
     transition: all 0.5s ease;
 }
-.footer-col .midias-socias a i{
+
+.footer-col .midias-socias a i {
     color: #fff;
     font-size: 20px;
 }
 
-.footer-col .midias-socias a:hover{
+.footer-col .midias-socias a:hover {
     color: black;
     background-color: white;
 }
-.footer-col .form-sub input{
+
+.footer-col .form-sub input {
     width: 100%;
     padding: 10px;
     font-size: 15px;
@@ -216,13 +227,15 @@ footer{
     color: white;
     background-color: black;
 }
-.footer-col .form-sub input::placeholder{
+
+.footer-col .form-sub input::placeholder {
     color: white;
 }
-.footer-col .form-sub button{
+
+.footer-col .form-sub button {
     width: 100%;
     margin-top: 10px;
-    padding: 10px; 
+    padding: 10px;
     font-size: 17px;
     outline: none;
     border: none;
@@ -230,12 +243,11 @@ footer{
     color: black;
     border-radius: 3px;
     font-weight: bold;
-    background-color: white;        
+    background-color: white;
 }
 
 
-.copyright{
+.copyright {
     font-family: 'Poppins', sans-serif;
     color: white;
 }
-

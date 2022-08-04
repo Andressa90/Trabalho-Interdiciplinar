@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinemagic</title>
-    
+
     <link rel="icon" type="imagem/png" href="img/icone.png" />
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/animation.css">
     <script src="https://kit.fontawesome.com/04d5b02ebf.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,16 +25,15 @@
 
         <div class="pesquisar">
             <div class="search">
-                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme" >
-                
+                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme">
+
             </div>
-            <div >
-                <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscar()">
+            <div>
+                <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscarPesquisa()">
             </div>
-            
         </div>
-        
-        
+
+
     </header>
 
     <main>
@@ -64,9 +64,22 @@
             <a class="play"><img src="img/play.png">Assistir Trailer</a>
         </div>
         <hr>
-        
+
+        <section class="galery">
+            <div class="fotos">
+                <img src="img/bannerMortalKombat.jpg" alt="Foto 1">
+                <img src="img/bannerTintim.jpg" alt="Foto 2">
+                <img src="img/bannerMarvel.jpg" alt="Foto 3">
+                <img src="img/bannerBatman.jpg" alt="Foto 4">
+                <img src="img/bannerMortalKombat.jpg" alt="Foto 1">
+            </div>
+            <hr>
+        </section>
+
+
+
         <div class="sobreNos">
-            
+
 
             <h1 class="tituloSobre">SOBRE NÓS :</h1>
 
@@ -125,10 +138,10 @@
                     <h4>Loja online</h4>
 
                     <ul>
-                        <li><a href="Produtos.html">Home</a></li>
-                        <li><a href="Produtos.html">Filmes</a></li>
-                        <li><a href="Produtos.html">Relatório</a></li>
-                        <li><a href="Acessorios.html">Contato</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="catalogo.html">Filmes</a></li>
+                        <li><a href="relatorio.html">Relatório</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                     </ul>
 
                 </div>
@@ -163,8 +176,8 @@
     </footer>
 
     <script src="js/array.js"></script>
-    <script src="js/pesquisa1.js"></script>
-    <script src="js/relatorio2.js"></script>
+    <script src="js/pesquisaBusca.js"></script>
+    <script src="js/relatorio.js"></script>
 
 
 </body>

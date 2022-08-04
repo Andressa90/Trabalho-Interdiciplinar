@@ -29,106 +29,74 @@
 
         <div class="pesquisar">
             <div class="search">
-                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme" >
-                
+                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme">
+
             </div>
-            <div >
+            <div>
                 <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscar()">
             </div>
-            
+
         </div>
-        
+
     </header>
-
-
-
     <main>
 
-        
-
-        <div class="banner">
-            <img src="img/bg2.jpg" class="bg">
-
-            <div class="content">
-                <img src="img/name2.png" class="movieTitle">
-                <h4>
-                    <span>2020</span>
-                    <span><i>11+</i></span>
-                    <span> 2h 03min</span>
-                    <span>Aventura</span>
-                </h4>
-                <p>
-                    Enola Holmes (Millie Bobby Brown) é uma menina adolescente cujo irmão, 20 anos mais velho, é o
-                    renomado detetive Sherlock Holmes (Henry Cavill). Quando sua mãe (Helena Bonham Carter) desaparece,
-                    fugindo do confinamento da sociedade vitoriana e deixando dinheiro para trás para que Enola faça o
-                    mesmo, a menina inicia uma investigação para descobrir o paradeiro dela, ao mesmo tempo em que
-                    precisa ir contra os desejos de seu irmão, Mycroft (Sam Claflin), que quer mandá-la para um colégio
-                    interno só de meninas. A caminho de Londres, ela conhece um lorde fugitivo (Louis Partridge) e passa
-                    a desvendar quem pode estar atrás do garoto e que quer impedir que uma importante reforma política
-                    ingesa aconteça.
-                </p>
-
-                <div class="buttons">
-                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
-                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
+        <section>
+            <div class="filtro">
+                <div class="genero">
+                    Gênero :
+                    <select name="" id="inGenero">
+                        <option value="Todos">Todos</option>
+                        <option value="Ação">Ação</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Terror">Terror</option>
+                        <option value="Comédia">Comédia</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Ficção">Ficção</option>
+                        <option value="Comédia Romântica">Comédia Romântica</option>
+                        <option value="Animação">Animação</option>
+                        <option value="Suspense">Suspense</option>
+                    </select>
                 </div>
-            </div>
-            <a class="play"><img src="img/play.png">Assistir Trailer</a>
-        </div>
 
-        <div class="filtro">
-            <div class="genero">
-                Gênero :
-                <select name="" id="inGenero">
-                    <option value="Todos">Todos</option>
-                    <option value="Ação">Ação</option>
-                    <option value="Drama">Drama</option>
-                    <option value="Terror">Terror</option>
-                    <option value="Comédia">Comédia</option>
-                    <option value="Romance">Romance</option>
-                    <option value="Aventura">Aventura</option>
-                    <option value="Ficção">Ficção</option>
-                    <option value="Comédia Romântica">Comédia Romântica</option>
-                    <option value="Animação">Animação</option>
-                    <option value="Suspense">Suspense</option>
-                </select>
-            </div>
-    
-            <div class="valor">
-                Valor :
-                <input type="number" id="inNum1">
-                até
-                <input type="number" id="inNum2">
-            </div>
-    
-            <div class="ano">
-                Ano :
-                <input type="number" id="inAno">
-            </div>
-    
-            <div class="idade">
-                Classificação Indicativa :
-                <input type="number" id="inIdade">
-            </div>
+                <div class="valor">
+                    Valor :
+                    <input type="number" id="inNum1">
+                    até
+                    <input type="number" id="inNum2">
+                </div>
 
-            <input type="button" value="mostrar" onclick="buscar2()">
-        </div>
-        <div class="atencao">
-            <p>*Atenção : O período de locação de cada filme é limitado até 48h após o pagamento!</p>
-        </div>
+                <div class="ano">
+                    Ano :
+                    <input type="number" id="inAno">
+                </div>
 
-       
+                <div class="idade">
+                    Classificação Indicativa :
+                    <input type="number" id="inIdade">
+                </div>
 
-        
-        <table>
-            <tbody class="corpoTabela">
+                <input type="button" value="mostrar" onclick="buscarFiltro()">
+            </div>
+            <div class="atencao">
+                <p>*Atenção : O período de locação de cada filme é limitado até 48h após o pagamento!</p>
+            </div>
+        </section>
 
-            </tbody>
-        </table>
+
+        <section>
+            <table>
+                <tbody class="corpoTabela">
+
+                </tbody>
+            </table>
+        </section>
+
     </main>
 
     <footer>
-        <div class="container-footer">
+        <section class="container-footer">
             <div class="row-footer">
 
                 <div class="footer-col">
@@ -155,10 +123,10 @@
                 <div class="footer-col">
                     <h4>Loja online</h4>
                     <ul>
-                        <li><a href="Produtos.html">Home</a></li>
-                        <li><a href="Produtos.html">Filmes</a></li>
-                        <li><a href="Produtos.html">Relatórios</a></li>
-                        <li><a href="Acessorios.html">Contato</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="catalogo.html">Filmes</a></li>
+                        <li><a href="relatorio.html">Relatórios</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </div>
 
@@ -185,13 +153,13 @@
                 </div>
 
             </div>
-        </div>
+        </section>
     </footer>
 
     <script src="js/array.js"></script>
-    <script src="js/listagemGeral.js"></script>
-    <script src="js/catalogo2.js"></script>
-    <script src="js/pesquisa1.js"></script>
-    
+    <script src="js/catalogo.js"></script>
+    <script src="js/filtroBusca.js"></script>
+    <script src="js/pesquisaBusca.js"></script>
+
 
 </body>

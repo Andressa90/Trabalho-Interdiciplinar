@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinemagic</title>
-    
+
     <link rel="icon" type="imagem/png" href="img/icone.png" />
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/filtroCatalogo.css">
@@ -25,17 +25,17 @@
 
         <div class="pesquisar">
             <div class="search">
-                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme" >
-                
+                <input type="search" placeholder="Digite o nome do filme ..." class="pesquisaFilme">
+
             </div>
-            <div >
-                <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscar()">
+            <div>
+                <input type="button" value="Pesquisar" class="btPesquisar" onclick="buscarPesquisa()">
             </div>
-            
+
         </div>
-        
+
     </header>
-    
+
     <main>
         <hr>
         <div class="filtro">
@@ -73,7 +73,7 @@
                 <input type="number" id="inIdade">
             </div>
 
-            <input type="button" value="mostrar" onclick="buscar2()">
+            <input type="button" value="mostrar" onclick="buscarFiltro()">
         </div>
 
 
@@ -82,11 +82,11 @@
 
             </tbody>
         </table>
-        
+
     </main>
     <hr>
     <footer>
-        
+
         <div class="container-footer">
             <div class="row-footer">
 
@@ -114,10 +114,10 @@
                 <div class="footer-col">
                     <h4>Loja online</h4>
                     <ul>
-                        <li><a href="Produtos.html">Violões</a></li>
-                        <li><a href="Produtos.html">Violas</a></li>
-                        <li><a href="Produtos.html">Teclados</a></li>
-                        <li><a href="Acessorios.html">Acessórios</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="catalogo.html">Filmes</a></li>
+                        <li><a href="relatorio.html">Relatório</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </div>
 
@@ -148,10 +148,10 @@
     </footer>
 
     <script src="js/array.js"></script>
-    <script src="js/pesquisa1.js"></script>
-    <script src="js/catalogo1.js"></script>
-    <script src="js/catalogo2.js"></script>
-    
+    <script src="js/pesquisaBusca.js"></script>
+    <script src="js/filtro.js"></script>
+    <script src="js/filtroBusca.js"></script>
+
 
 </body>
 
